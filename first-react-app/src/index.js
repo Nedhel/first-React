@@ -1,9 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import "./index.css";
 
-const firstElement= <h1>Hello desde React</h1>
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  firstElement
-);
-
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<App></App>);
