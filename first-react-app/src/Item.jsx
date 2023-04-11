@@ -5,7 +5,7 @@ export function Item({tareas, toggleStatus}){
     }
     return (
         <>
-        <li id={id} className="text-white capitalize"><input type="checkbox" checked={completed} onChange={handleChange}></input>{tarea}</li>       
+        <li id={id} className="text-white capitalize"><input type="checkbox" checked={completed} onChange={handleChange} id={tarea}></input><label htmlFor={tarea}>{tarea}</label></li>       
         </>
     )
 }
